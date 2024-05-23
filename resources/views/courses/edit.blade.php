@@ -9,7 +9,7 @@
         {!! csrf_field() !!}
         @method("PUT") 
         <input type="hidden" name="id" id="id" value="{{$course->id}}" id="id" />
-        <label>Name</label></br>
+        <label>Name</label></br><br>
         <input type="text" name="name" id="name" value="{{$course->name}}" class="form-control"></br>
         <label>Address</label></br>
         <input type="text" name="syllabus" id="syllabus" value="{{$course->syllabus}}" class="form-control"></br>
