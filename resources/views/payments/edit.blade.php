@@ -9,7 +9,7 @@
         {!! csrf_field() !!}
         @method("PUT") 
         <input type="hidden" name="id" id="id" value="{{$payments->id}}" id="id" />
-        <label>Enrollment No</label></br>
+        <label>Enrollment No</label></br><br>
         
         <select name="enrollment_id" id="enrollment_id" class="form-control">
           @foreach($enrollments as $id => $enrollment)
